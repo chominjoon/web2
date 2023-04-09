@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>레스토랑 예약하기</h3>
+    <form method="post" action="form_app.js">
+        <fieldset>
+            <legend>예약자 정보</legend>
+            <label for="예약자">예약자 :</label>
+            <input type="text" name="subscriber">
+            <br>
+            <label for="tel">연락처 :</label>
+            <input type="tel" placeholder="000-0000-0000" pattern="[0-9]{2,3}-[0-9]{3,4}-[0-9]{4}"/>
+            <br>
+            <label for="예약인원">예약인원 : </label>
+            <select name="person" size="1">
+                <option value="1">1명</option>
+                <option value="1">2명</option>
+                <option value="1">3명</option>
+                <option value="1">4명</option>
+                <option value="1">5명</option>
+                <option value="1">6명</option>
+                <option value="1">7명</option>
+                <option value="1">8명</option>
+                <option value="1">9명</option>
+                <option value="1">10명</option>
+                <option value="1">11명</option>
+                <option value="1">12명</option>
+                <option value="1">13명</option>
+                <option value="1">14명</option>
+                <option value="1">15명</option>
+            </select>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>일자 선택 및 시간 선택</legend>
+            <input type="date" name="time re">
+            <input type="time" name="time-time">
+        </fieldset>
+        <input type="submit" value="예약">
+        <input type="reset" value="취소">
+    </form>
+</body>
+</html>

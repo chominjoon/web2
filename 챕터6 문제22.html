@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>수강과목조사</h3>
+    <form method="get" action="form_app.js">
+        이름:<input type="text" name="name"/>
+        <br>
+        학과:<input type="text" name="major"/>
+        <br>
+        학년:
+        <br>
+        <input type="radio" name="grade" value="1grade"/>1학년
+        <input type="radio" name="grade" value="2grade"/>2학년
+        <input type="radio" name="grade" value="3grade"/>3학년
+        <input type="radio" name="grade" value="4grade-over"/>4학년
+        <br>
+        수강과목:
+        <br>
+        <input type="checkbox" name="subjective" value="it-understanding-of-tecnic"/>it기술의 이해
+        <input type="checkbox" name="subjective" value="web-programing-basic"/>웹프로그래밍기초
+        <input type="checkbox" name="subjective" value="UI/UX-design"/>UI/UX설계
+        <br>
+        <input type="submit" value="확인"/>
+        <input type="reset" value="취소"/>
+    </form>
+</body>
+</html>
